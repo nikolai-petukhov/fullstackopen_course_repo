@@ -1,4 +1,5 @@
-import Person from "./Person";
+import React from 'react'
+import Person from './Person'
 
 const Persons = ({ persons, onDelete }) => {
   return persons.map((person) => (
@@ -7,7 +8,7 @@ const Persons = ({ persons, onDelete }) => {
       person={person}
       onDelete={() => onDelete(person.id)}
     />
-  ));
-};
+  ))
+}
 
-export default Persons;
+export default Persons

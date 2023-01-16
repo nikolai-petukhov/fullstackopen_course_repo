@@ -1,6 +1,6 @@
-const NotificationTypes = { 
-    ERROR: 'error', 
-    SUCCESSFUL: 'successful'
-};
+const NotificationTypes = {
+  ERROR: 'error',
+  SUCCESSFUL: 'successful',
+}
 
-export default NotificationTypes;
+export default NotificationTypes

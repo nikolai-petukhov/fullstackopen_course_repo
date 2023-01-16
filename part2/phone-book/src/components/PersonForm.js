@@ -1,9 +1,11 @@
+import React from 'react'
+
 const PersonForm = ({
   addNumber,
   changeInputNameHandler,
   changeInputNumberHandler,
   newName,
-  newNumber
+  newNumber,
 }) => {
   return (
     <form onSubmit={addNumber}>
@@ -17,7 +19,7 @@ const PersonForm = ({
         <button type="submit">add</button>
       </div>
     </form>
-  );
-};
+  )
+}
 
-export default PersonForm;
+export default PersonForm
